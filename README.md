@@ -83,5 +83,3 @@ NexaCRM AI/
 - **Settings** — General, notifications, security (2FA toggle), appearance (dark/light), integrations status, billing plan
 
 ---
-
-*Built with ❤️ using AI-first architecture. Inspired by HubSpot, Zoho CRM, and Salesforce — enhanced for the AI era.*
