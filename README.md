@@ -69,14 +69,6 @@ NexaCRM AI/
 
 ---
 
-## 📖 Documentation
-
-- [Setup Guide](docs/SETUP.md) — Full installation & deployment instructions
-- [API Reference](docs/API.md) — REST endpoints, request/response examples
-- [Swagger UI](http://localhost:8080/swagger-ui/index.html) — Interactive API explorer (when backend is running)
-
----
-
 ## 📸 Module Overview
 
 - **Dashboard** — Live KPIs, revenue area chart, lead source pie chart, sales funnel, AI insights panel, activity feed
