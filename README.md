@@ -44,11 +44,6 @@ cd frontend && npm install && npm run dev
 # In your Bolna agent Analytics tab, set webhook URL:
 # http://localhost:8080/api/calls/webhook
 ```
-
-Open **http://localhost:5173** → login with `saurabhke4@gmail.com` / `demo1234`
-
-> Demo users are auto-seeded when `APP_ENV` is `development` or `dev`. In production, keep `APP_ENV=production` and explicitly opt in with `SEED_DEMO_USERS=true` only if you want the sample accounts created.
-
 ---
 
 ## 📁 Project Structure
