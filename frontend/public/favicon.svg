@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="nG" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#60c8ff"/>
+      <stop offset="40%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dg" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- bg -->
+  <rect width="100" height="100" rx="22" fill="#0d1829"/>
+  <!-- circuit lines -->
+  <path d="M65 16 Q65 8 56 8" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M24 58 Q12 58 12 68" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M24 78 Q12 78 12 68" stroke="#22d3ee" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- dots -->
+  <circle cx="56" cy="8"  r="4" fill="#22d3ee" filter="url(#dg)"/>
+  <circle cx="12" cy="68" r="4" fill="#22d3ee" filter="url(#dg)"/>
+  <circle cx="65" cy="90" r="3" fill="#3b82f6" filter="url(#dg)" opacity="0.8"/>
+  <!-- N left bar -->
+  <path d="M22 20 C22 17 24 15 27 15 L33 15 C36 15 38 17 38 20 L38 80 C38 83 36 85 33 85 L27 85 C24 85 22 83 22 80 Z" fill="url(#nG)"/>
+  <path d="M22 20 C22 17 24 15 27 15 L33 15 C36 15 38 17 38 20 L38 48 L22 36 Z" fill="url(#sh)"/>
+  <!-- N diagonal -->
+  <path d="M38 20 L38 40 L62 65 L62 80 C62 83 64 85 67 85 L73 85 C76 85 78 83 78 80 L78 65 L54 40 L54 20 C54 17 52 15 49 15 L43 15 C40 15 38 17 38 20 Z" fill="url(#nG)"/>
+  <!-- N right bar -->
+  <path d="M62 20 C62 17 64 15 67 15 L73 15 C76 15 78 17 78 20 L78 80 C78 83 76 85 73 85 L67 85 C64 85 62 83 62 80 Z" fill="url(#nG)"/>
+  <path d="M62 20 C62 17 64 15 67 15 L73 15 C76 15 78 17 78 20 L78 38 L62 26 Z" fill="url(#sh)"/>
+</svg>
